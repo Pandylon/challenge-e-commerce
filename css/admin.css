@@ -1,0 +1,181 @@
+/*home-administrador*/
+.adm{
+    position: relative;
+    width: 980px;
+    height: 800px;
+    background: var(--cor-de-fundo);
+   
+  
+
+}
+.adm__form{
+    position: absolute;
+    width: 423px;
+    height: 291px;
+    left: 300px;
+    top: 145px;
+    font-family: "raleway";
+    color: var(--cor-de-tex);
+
+}
+
+.adm__btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 423px;
+    height: 62px;
+    top: 435px;
+    left: 508px;
+    padding: 12px 16px ;
+    gap: 10px;
+    margin-top: 20px;
+    background: var(--cor-de-btn);
+    border: none;
+    color: #FFFFFF;
+    border-radius: 0.3em;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    
+}
+
+.adm__form input {
+   
+    font-family: "Raleway";
+    width: 423px;
+    height: 63px;
+    font-size: 1em;;
+    margin-top: 20px;
+   text-align: center;
+    outline: none;
+    border: none;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    border-radius: 0.3em;
+    color: var(--cor-de-tex);}
+
+    .div__file{
+     position: relative;
+      margin-left: 150px;
+      margin-top: 30px;
+      padding: 10px;
+      width: 100px;
+      box-shadow: 0 3px 10px var(--primary-shadow);
+      background: var(--cor-de-fundo);
+      border-radius: 0.3em;
+    
+    }
+    .div__file p {
+         
+  text-align: center;
+  font-family: "raleway";
+  color: var(--cor-de-tex);
+
+
+    }
+    .adm__url{
+   position: absolute;
+   width:50px;
+   bottom: 1px;
+   opacity: 0;
+  
+    
+}  
+
+.input-descripcion{
+   
+    font-family: "Raleway";
+    padding: 0px;
+   
+    width: 423px;
+    height: 63px;
+   
+    margin-top: 20px;
+    font-size: 1em;
+    outline: none;
+    border: none;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    border-radius: 0.3em;
+    color: var(--cor-de-tex);
+    text-align: center;
+}
+
+
+.adm__form h2{
+    
+    
+    height: 29px;
+    
+    font-family: "Raleway";
+    font-size: normal;
+    font-weight: 700px;
+    font-size: 2em;
+    line-height: 21px;
+    color: #464646;
+    line-height: 21.13px;
+    text-align: center;
+
+
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+    body{
+        font-size: 9px;
+ }
+ .adm{
+    
+    width: 768px;
+}
+.adm__form{
+   
+left: 15px;
+
+}
+
+.adm__btn{
+   width: 500px;
+    
+}
+.adm__form input {
+   width: 500px;
+   
+}
+.adm__form textarea {
+    width: 500px;
+    
+ }
+
+}
+
+@media screen and (max-width: 420px) {
+   
+    body{
+        font-size: 8px;
+        height: auto;
+    }
+    .adm{
+        
+        width: 420px;
+    }
+    .adm__form{
+       
+    left: 15px;
+    font-size: 1.3em;
+    }
+    
+    .adm__btn{
+       width: 350px;
+        
+    }
+    .adm__form input {
+       width: 350px;
+       
+    }
+    .adm__form textarea {
+        width: 350px;
+        
+     }
+    }
+  

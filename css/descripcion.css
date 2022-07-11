@@ -1,0 +1,161 @@
+
+ 
+    
+
+/*main*/
+
+    .info_producto{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 16px;
+        width: 1136px;
+        height: 403px;
+        margin-top: 64px;
+        margin-left: 120px;
+
+
+    }
+
+    .info_producto img{
+        width: 560px;
+        height: 403px;
+    }
+
+    .descrip__producto{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 16px;
+        width: 560px;
+        height: 210px;
+        color:var(--cor-de--letra);
+        font-family: "raleway";
+        font-style: normal;
+    }
+
+    .descrip__producto h2{
+        width: 560px;
+        height: 61px;
+        font-style: normal;
+        font-weight: 500px;
+        font-size: 3.25em;
+        line-height: 61px;
+        
+
+    }
+    .precio{
+        width: 57px;
+        height: 19px;
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 19px;
+       
+
+    }
+
+    .descrip__producto p{
+        width: 560px;
+        height: 114px;
+        font-weight: 400;
+        font-size: 1em;
+        line-height: 19px;
+        margin: 0px;
+       
+    }
+
+    /*seccion productos*/
+
+    .linha_producto{
+        width: 1136px;
+        height: 360px;
+        margin-top: 64px;
+        margin-left: 120px;
+        gap: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+
+    }
+
+    .linha_producto h3{
+     width: 303px;
+     height: 38px;
+     font-family: "Ralewey";
+     font-style: normal;
+     font-weight: 700px;
+     font-size: 2em;
+     line-height: 38px;
+     color: #464646;
+
+    }
+
+    .prod{
+        width: 1136px;
+        height: 252px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 16px;
+
+    }
+
+    .prod li{
+
+        width: 176px;
+        height: 252px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 8px;
+
+
+    }
+    .prod li img{
+        width: 176px;
+        height: 174px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 0px;
+        gap: 8px;
+        background:#FFFFFF;  
+    }
+    .prod p {
+        width: 176px;
+        font-family: "ralewey";
+        font-style: normal;
+        margin: 5px;
+        color:#464646;   
+    }
+    .nomb_product{
+
+height: 16px;
+font-weight: 500px;
+font-size: 14px;
+
+
+    }
+.precio_product {
+    height: 19px;
+    font-weight: 700px;
+    font-size: 16px;
+    line-height: 19px;
+} 
+
+.prod a{
+    width: 100px;
+    font: "ralewey";
+    font-style: normal;
+    height: 19px;
+    font-weight: 700px;
+    font-size: 1em;
+    line-height: 19px;
+    color:#2A7Ae4; 
+}
+

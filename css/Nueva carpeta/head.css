@@ -1,0 +1,77 @@
+.encabezado{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap:10px;
+    width: 1440px;
+    height: 114px;
+    background: #FFFFFF
+}
+.topo{
+    width: 1136px;
+    height: 114px;
+    left: 152px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0px;
+    gap: 611px;
+    
+}
+.direita{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    top: 32px;
+    gap: 32px;
+    width: 601px;
+    height: 50px;
+   
+}
+
+.direita__logo{
+    width: 176px;
+    height: 50px;
+}
+
+.icon_search{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding:8px 16px ;
+    gap:8px;
+    width:393px;
+    height: 40px;
+    top:5px;
+    left: 208px;
+    background: #F5F5F5;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+
+}
+.icon_search__input{
+    width: 329px;
+    height: 16px;
+    background: #F5F5F5;
+    border: none;
+}
+
+.btn__login{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    padding: 16px;
+    background: #FFFFFF;
+      gap: 10px;
+      width: 182px;
+      height: 51px;
+      border: 1px solid #2A7AE4;
+      color:#2474E4 
+
+}

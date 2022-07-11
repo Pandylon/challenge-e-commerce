@@ -1,0 +1,155 @@
+
+
+.producto{
+    
+     width: 1336px;
+     padding: 50px;
+     align-items: center;
+     color: var(--cor-de--letra);
+
+ }
+ .producto__titulo{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-bottom: 2em;
+
+ }
+ .producto__titulo h3{
+     font-family: "raleway";
+     font-size: 1.3em;
+     
+ }
+.producto__titulo a{
+    font-size: 1.3em;
+    color: var(--cor-de-btn);
+}
+
+.productos {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+}
+.productos li{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: flex-start;
+    padding: 0px;
+    font-size: 1.1em;
+    gap: 0.7em;
+    
+}
+
+.productos a{
+    color: var(--cor-de-btn);
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+   
+    .linha__productos{
+   margin-left: 1.5em;
+   width: 704px;
+   height: 1429px;
+   margin-top: 20px;}
+
+
+  .linha__productos__titulo{
+      width: 704px;
+      height: 40px;
+     
+     
+  }
+   .linha__productos__titulo button{
+    
+    height: 30px;
+    font-size: 1em;
+   }
+
+   .producto{
+    width: 704px;
+    height: auto;
+       
+   }
+   .productos{
+       width: 100%;
+       height: auto;
+       flex-wrap: wrap;
+       margin-left: 30px;
+       
+   }
+.productos__li{
+   width: 150px;
+   height: auto;
+   font-size: 1em;
+  
+  }
+  .productos__li__img{
+   width: 150px;
+   height: auto;
+  }
+ 
+
+}
+  
+  @media screen and (max-width: 420px) {
+    body{
+        font-size: 8px;
+    }
+     .linha__productos{
+         
+    margin-left: 1em;
+    width: 360px;
+    height: auto;
+    margin-top: 20px;}
+ 
+ 
+   .linha__productos__titulo{
+       width:296px;
+       height: 82px;
+       flex-direction: column;
+        align-items: flex-start;
+        margin-left: 32px;
+      
+   }
+    .linha__productos__titulo button{
+     
+     height: 30px;
+     font-size: 1em;
+    }
+ 
+    .producto{
+     width: 296px;
+     height: auto;
+        
+    }
+    .productos{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        
+        font-size: 1.5em;
+        
+    }
+ .productos__li{
+    width: 90px;
+    height: 174px;
+   
+   }
+   
+   .productos__li__img{
+    width: 90px;
+    height: auto;
+   }
+    
+  
+
+
+
+
+
+}
